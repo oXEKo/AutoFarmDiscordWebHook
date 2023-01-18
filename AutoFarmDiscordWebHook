@@ -73,9 +73,9 @@ coroutine.resume(coroutine.create(function()
 
 			local exec = tostring(identifyexecutor())
 			if exec == "Synapse X" then
-				syn.queue_on_teleport("loadstring(game:HttpGet('https://getfile.dokpub.com/yandex/get/https://disk.yandex.ru/d/D8MB9lapnMHx1g'))()")
+				syn.queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/oXEKo/AutoFarmDiscordWebHook/main/AutoFarmDiscordWebHook'))()")
 			else
-				queue_on_teleport("loadstring(game:HttpGet('https://getfile.dokpub.com/yandex/get/https://disk.yandex.ru/d/D8MB9lapnMHx1g'))()")
+				queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/oXEKo/AutoFarmDiscordWebHook/main/AutoFarmDiscordWebHook'))()")
 			end
         end
 	end)
